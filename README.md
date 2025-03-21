@@ -57,7 +57,7 @@ Link dataset: [Used Car Dataset - Kaggle](https://www.kaggle.com/datasets/aditya
 
 3. **Jalankan Aplikasi Streamlit**:
    ```bash
-   streamlit run app.py
+   python -m streamlit run estimasi_harga_mobil_bekas.py
    ```
 
 4. **Masukkan Data Mobil**:
