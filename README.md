@@ -1,9 +1,8 @@
 # Prediksi-Estimasi-Harga-Mobil-Bekas-Menggunakan-Algoritma-Regresi-Linear-Python
 
-<img width="559" alt="image" src="https://github.com/user-attachments/assets/979145bc-3e12-4ef3-b599-a4c52441bfe1" />
-
-
 # Estimasi Harga Mobil Bekas Menggunakan Algoritma Regresi Linier dengan Python
+
+<img width="559" alt="image" src="https://github.com/user-attachments/assets/979145bc-3e12-4ef3-b599-a4c52441bfe1" />
 
 ## Deskripsi Proyek
 
