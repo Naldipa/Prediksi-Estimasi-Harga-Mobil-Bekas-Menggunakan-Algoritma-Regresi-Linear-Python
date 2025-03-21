@@ -1,0 +1,50 @@
+Untuk menjalankan kode Python
+
+pickle
+Deskripsi: Digunakan untuk memuat model yang telah disimpan dalam file dengan ekstensi .sav.
+Instalasi: pickle adalah pustaka bawaan Python, jadi tidak perlu menginstalnya secara terpisah.
+
+streamlit
+Deskripsi: Digunakan untuk membuat aplikasi web interaktif yang memungkinkan pengguna memasukkan data dan melihat hasil prediksi.
+instalasi: Anda bisa menginstalnya dengan perintah berikut:
+pip install streamlit
+
+pandas
+Deskripsi: Digunakan untuk manipulasi data, seperti memuat dataset CSV dan melakukan proses pengolahan data sebelum diprediksi oleh model.
+Instalasi: Instalasi dapat dilakukan dengan perintah berikut:
+pip install pandas
+
+
+datetime
+Deskripsi: Digunakan untuk mengelola tanggal dan waktu, misalnya untuk menghitung selisih hari antara tanggal pembelian mobil dan tanggal referensi tertentu.
+Instalasi: datetime adalah pustaka bawaan Python, jadi tidak perlu menginstalnya secara terpisah.
+
+
+sklearn (scikit-learn)
+Deskripsi: Digunakan untuk memuat model prediksi yang telah disimpan dengan pickle dan juga digunakan untuk manipulasi data (seperti encoding data kategorikal).
+Instalasi: Anda bisa menginstalnya dengan perintah berikut:
+pip install scikit-learn
+
+
+numpy
+Deskripsi: Meskipun tidak eksplisit dalam kode Anda, pandas sering memanfaatkan numpy untuk beberapa operasi, seperti manipulasi data numerik.
+Instalasi: Anda bisa menginstalnya dengan perintah berikut:
+pip install numpy
+
+
+Cara Menginstal Semua Dependensi:
+Jika Anda belum memiliki pustaka-pustaka ini di lingkungan Anda, Anda bisa menginstal semuanya sekaligus dengan perintah berikut di terminal atau command prompt:
+pip install streamlit pandas scikit-learn numpy
+
+
+Penjelasan Proses:
+pickle: Digunakan untuk memuat model prediksi yang telah disimpan.
+streamlit: Digunakan untuk membuat aplikasi web interaktif agar pengguna dapat memasukkan data dan melihat prediksi.
+pandas: Digunakan untuk memanipulasi data dan melakukan analisis, seperti pembacaan file CSV dan penanganan data numerik.
+datetime: Untuk mengonversi tanggal menjadi informasi yang dapat diproses lebih lanjut (misalnya, menghitung jumlah hari sejak 1 Januari 2000).
+scikit-learn: Digunakan untuk mengakses model yang sudah dilatih dan fitur pengolahan data lainnya seperti one-hot encoding.
+
+
+
+untuk menjalankan streamlit setelah semua library sudah di install:
+python -m streamlit run estimasi_harga_mobil_bekas.py
